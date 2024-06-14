@@ -4,16 +4,16 @@
     align-items: center;
     background-color:black;
     padding: 10px;
-    color: white; /* Text color */
+    color: white; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow */
   }
   
   .navbar-left {
-    flex: 1; /* Take up available space */
+    flex: 1;
   }
   
   .navbar-center {
-    flex: 2; /* Take up more space */
+    flex: 2;
     text-align: center;
   }
   

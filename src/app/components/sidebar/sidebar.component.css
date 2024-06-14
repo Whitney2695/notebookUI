@@ -1,14 +1,27 @@
 .sidebar {
   width: 200px;
-  height: 100vh;
+  height: 100%;
   background-color: black;
   color: white;
   padding-top: 20px;
 }
 
+.sidebar .sidebar-icon {
+  text-align: center; /* Center the icon or logo */
+  padding: 10px;
+}
+
+.sidebar .create-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Space below the button */
+}
+
 .sidebar ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .sidebar li {
