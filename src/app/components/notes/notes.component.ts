@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { Note } from '../../interfaces/notes.model'; 
-import { FormsModule, ReactiveFormsModule} from '@angular/forms'
+import { FormBuilder, FormGroup, Validators, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { Note } from '../../interfaces/notes.model';
 
 @Component({
   selector: 'app-notes',
   standalone: true,
-  imports:[ FormsModule, ReactiveFormsModule ],
+  imports: [FormsModule, ReactiveFormsModule],
   templateUrl: './notes.component.html',
   styleUrls: ['./notes.component.css']
 })
